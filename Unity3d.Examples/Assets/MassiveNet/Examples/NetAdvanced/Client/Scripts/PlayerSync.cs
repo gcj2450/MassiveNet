@@ -4,6 +4,7 @@ using UnityEngine;
 
 namespace Massive.Examples.NetAdvanced {
 
+    // responsible for position synchronization 
     public class PlayerSync : MonoBehaviour {
 
         private float inputX;

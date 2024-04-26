@@ -2,8 +2,10 @@
 using MassiveNet;
 using UnityEngine;
 
+
 namespace Massive.Examples.NetAdvanced {
 
+    //responsible for position synchronization
     public class NetController : MonoBehaviour {
         /// <summary>
         /// When true, SmoothCorrectPosition will perform additional

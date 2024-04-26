@@ -1,17 +1,22 @@
 ﻿// MIT License (MIT) - Copyright (c) 2014 jakevn - Please see included LICENSE file
 using MassiveNet;
 using UnityEngine;
+namespace Massive.Examples.NetAdvanced
+{
+    public class ChatServer : MonoBehaviour
+    {
 
-public class ChatServer : MonoBehaviour {
+        private NetSocket socket;
 
-    private NetSocket socket;
+        private void Start()
+        {
+            socket = FindObjectOfType<NetSocket>();
+            socket.RegisterRpcListener(this);
+        }
 
-    private void Start() {
-        socket = FindObjectOfType<NetSocket>();
-        socket.RegisterRpcListener(this);
-    }
+        public void BroadcastChat(string text)
+        {
 
-    public void BroadcastChat(string text) {
-
+        }
     }
 }

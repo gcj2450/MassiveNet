@@ -35,7 +35,7 @@ namespace Massive.Examples.NetAdvanced {
                 if (WeaponMount.childCount == 0) return;
                 var trans = WeaponMount.GetChild(0);
                 if (trans == null) return;
-                var effectTrans = trans.FindChild("Effect");
+                var effectTrans = trans.Find("Effect");
                 if (effectTrans != null) effectObj = effectTrans.gameObject;
             }
             if (effectObj == null) return;

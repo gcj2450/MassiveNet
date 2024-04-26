@@ -4,7 +4,10 @@ using System.Net;
 using MassiveNet;
 using UnityEngine;
 
-namespace Massive.Examples.NetSimple {
+//They are responsible for NetSocket configuration and startup
+//as well as basic logic for handling connections.
+namespace Massive.Examples.NetSimple
+{
     [RequireComponent(typeof(NetSocket), typeof(NetViewManager), typeof(NetScopeManager))]
     public class ServerModel : MonoBehaviour {
 

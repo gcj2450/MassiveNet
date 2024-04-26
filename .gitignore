@@ -13,3 +13,8 @@ bin
 *.suo
 /Unity3d.Examples/Assets/AssetStoreTools.meta
 *.DotSettings
+/.vs
+/Unity3d.Examples/Build
+/Unity3d.Examples/.vsconfig
+/Unity3d.Examples/.vs
+/Unity3d.Examples/Logs

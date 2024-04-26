@@ -4,6 +4,9 @@ using UnityEngine;
 
 namespace Massive.Examples.NetAdvanced {
 
+    //They are responsible for NetSocket configuration and startup
+    //as well as basic logic for handling connections.
+
     [RequireComponent(typeof(NetSocket), typeof(NetViewManager))]
     public class ClientModel : MonoBehaviour {
  

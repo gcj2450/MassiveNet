@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using MassiveNet;
 using UnityEngine;
-
+//https://github.com/jakevn/MassiveNet/wiki/Getting-Started
 namespace Massive.Examples.NetAdvanced {
     public class PlayerCreator : MonoBehaviour {
 
